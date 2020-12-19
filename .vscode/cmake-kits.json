@@ -1,0 +1,7 @@
+[
+	{
+		"name": "GCC for avr",
+		"toolchainFile": "${workspaceFolder}/cmake/avr/entrypoint.cmake",
+		"preferredGenerator": { "name": "Ninja" }
+	}
+]
