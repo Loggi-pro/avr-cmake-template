@@ -3,3 +3,4 @@ bin/
 cmake-build*/
 copy.bat
 .idea/workspace.xml
+cmake/libs/cph-stm32.cmake
