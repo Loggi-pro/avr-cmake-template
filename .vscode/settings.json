@@ -1,0 +1,13 @@
+{
+	"cmake.configureOnOpen": true,
+	"cmake.configureSettings": {
+		"PROJECT_NAME": "${workspaceFolderBasename}",
+		"CMAKE_EXPORT_COMPILE_COMMANDS": "1", //Generate compile_commands.json
+		"MCU": "atmega168p",					//MCU
+		"F_CPU": "16000000UL",					//FCPU
+		"CMAKE_RUNTIME_OUTPUT_DIRECTORY": "${workspaceFolder}/bin",
+		"TOOLCHAIN_PATH": "${env:LIB}/WinAVR/", //path to compiler folder
+		"CPPTOOL_PATH": "${workspaceFolder}/.vscode/c_cpp_properties.json",
+		"VOID_LIB_PATH": "${env:LIB}/cpp/lib/"
+	}
+}
