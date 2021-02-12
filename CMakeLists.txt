@@ -13,7 +13,7 @@ target_compile_features(project_options INTERFACE cxx_std_17)
 set_project_options(project_options)
 add_library(project_warnings INTERFACE)
 set_project_warnings(project_warnings)
-print_size_all(template_project)
+print_size_details(template_project)
 #link target with options
 target_link_libraries(template_project.elf PRIVATE project_options project_warnings)
 
